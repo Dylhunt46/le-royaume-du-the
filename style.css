@@ -13,6 +13,12 @@ header {
 
 h1 {
     font-size: 22px;
+    font-weight: bold;
+}
+
+section {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 header a {
@@ -21,6 +27,7 @@ header a {
     font-size: 18px;
     padding: 12px;
     border: 2px solid #fff;
+    font-weight: bold;
 }
 
 header a:hover {
@@ -34,4 +41,28 @@ header div {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+}
+
+.main-image {
+    position: relative;
+    margin-top: 80px;
+}
+
+.main-image div {
+    background-color: rgba(185, 0, 50, 0.4);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+
+.main-image p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 17px;
 }
