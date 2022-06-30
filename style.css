@@ -16,18 +16,41 @@ h1 {
     font-weight: bold;
 }
 
-section {
-    width: 1160px;
-    margin: 0 auto;
+h3 {
+    font-size: 18px;
+    color: #b90032;
 }
 
-header a {
+p {
+    font-size: 16px;
+}
+
+section {
+    width: 1160px;
+    margin: 80px auto 0 auto;
+
+}
+
+.btn {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     padding: 12px;
     border: 2px solid #fff;
     font-weight: bold;
+    display: block;
+}
+
+.btn-red {
+    border: none;
+    background-color: #b90032;
+    color: #fff;
+    width: 236px;
+
+    text-align: center;
+
+
+
 }
 
 header a:hover {
@@ -45,7 +68,7 @@ header div {
 
 .main-image {
     position: relative;
-    margin-top: 80px;
+
 }
 
 .main-image div {
@@ -65,4 +88,22 @@ header div {
     font-weight: bold;
     color: #fff;
     margin: 0 17px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-the {
+    margin-top: 25px;
+    width: 280px;
+    border: 1px solid #b90032;
+
+}
+
+
+
+.item-the-description {
+    padding: 10px;
 }
