@@ -1,14 +1,17 @@
+/* Général */
 * {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background-color: #8fb900;
+.container {
+    width: 1160px;
     display: flex;
-    justify-content: center;
-    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
 }
 
 h1 {
@@ -28,7 +31,6 @@ p {
 section {
     width: 1160px;
     margin: 80px auto 0 auto;
-
 }
 
 .btn {
@@ -46,11 +48,13 @@ section {
     background-color: #b90032;
     color: #fff;
     width: 236px;
-
     text-align: center;
+}
 
-
-
+/* Header */
+header {
+    background-color: #8fb900;
+    color: #fff;
 }
 
 header a:hover {
@@ -58,17 +62,11 @@ header a:hover {
     background-color: #fff;
 }
 
-header div {
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
+/* Main */
+/* Section Main Image */
 
 .main-image {
     position: relative;
-
 }
 
 .main-image div {
@@ -77,7 +75,6 @@ header div {
     display: flex;
     align-items: center;
     width: 100%;
-
     position: absolute;
     bottom: 7px;
     left: 0;
@@ -90,6 +87,7 @@ header div {
     margin: 0 17px;
 }
 
+/* Section Items */
 .container-item {
     display: flex;
     justify-content: space-between;
@@ -98,11 +96,8 @@ header div {
 .item-the {
     margin-top: 25px;
     width: 280px;
-    border: 1px solid #b90032;
-
+    border: 1px solid #b90032
 }
-
-
 
 .item-the-description {
     padding: 10px;
@@ -116,4 +111,23 @@ header div {
 
 .description-business {
     width: 570px;
+}
+
+/* Footer */
+footer {
+    background-color: #8fb900;
+    color: #fff;
+    margin-top: 80px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer p {
+    font-size: 22px;
+    font-weight: 600;
 }
